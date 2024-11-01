@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    color: orange;
+}
+.Form{
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Form-Item{
+    border-top: solid black 1px;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+}
+.Form-Item-Label{
+    width: 100%;
+    max-width: 248px;
+    font-weight: bold;
+    margin: auto;
+}
+.Form-Item-Input{
+    background-color: rgb(255,212,133);
+    text-align: left;
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    border: solid 1px orange;
+    border-radius: 6px;
+}
+.Form-Item-Textarea{
+    background-color: rgb(255,212,133);
+    text-align: left;
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    border: solid 1px orange;
+    border-radius: 6px;
+}
+.Form-Item-Label-Required{
+    padding: 1px 1px;
+    margin: 1px 0;
+    color: white;
+    background-color: orange;
+    border: solid 1px orange;
+    border-radius: 6px;
+
+}
+.Form-Btn-Free{
+    font-weight: bold;
+    padding: 1px 1px;
+    margin: 1px 0;
+    color: white;
+    background-color: rgb(175, 175, 175);
+    border:solid 1px rgb(175,175,175);
+    border-radius: 6px;
+}
+.Form-Btn{
+    font-weight: bold;
+    padding: 15px 100px;
+    margin: 0;
+    color: white;
+    background-color: orange;
+    border: solid 1px orange;
+    border-radius: 6px;
+}
